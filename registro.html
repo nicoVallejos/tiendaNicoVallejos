@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ec18c5aa82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>True Damage Gaming - TDG</title>
+</head>
+
+<body>
+    <div class="grilla">
+        <header class="header">
+            <div class="logo">
+                <a href="./index.html"><img class="imgLogo" src="./img/tru-damage.png" alt="True Damage Gaming"></a>
+                <form>
+                    <input type="search" class="buscador" placeholder="Buscar productos...">
+                </form>
+            </div>
+            <nav>
+                <ul class="lista">
+                    <li>
+                        <a class="abcColor" href="./productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a class="abcColor" href="./servicioDeAyuda.html">Servicio de ayuda</a>
+                    </li>
+                    <li>
+                        <a class="abcColor" href="./quienesSomos.html">¿Quiénes somos?</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="botonesPerfil">
+                <a href="./iniciarSesion.html"><button class="perfil">Iniciar Sesión</button></a>
+                <a href="./registro.html"><button class="perfil">Regístrate</button></a>
+            </div>
+        </header>
+        <main class="main">
+            <h3 class="datosH3">Completá tus datos</h3>
+            <form class="resgistroForm" action="#" method="get">
+                <label>
+                    <span class="resgistroSpan">Nombre</span>
+                    <br>
+                    <input type="text" placeholder="Lionel" name="nombre" required>
+                </label>
+                <br><br>
+                <label>
+                    <span class="resgistroSpan">Apellido</span>
+                    <br>
+                    <input type="text" placeholder="Messi" name="apellido" required>
+                </label>
+                <br><br>
+                <label class="resgistroSpan" for="nacimiento">Fecha de nacimiento</label>
+                <br>
+                <input type="date" name="nacimiento" id="nacimiento" required>
+                <br><br>
+                <span class="resgistroSpan">Sexo</span>
+                <br>
+                <label>
+                    <span>Mujer</span>
+                    <input type="radio" name="sexo" value="mujer">
+                </label>
+                <label>
+                    <span>Hombre</span>
+                    <input type="radio" name="sexo" value="hombre">
+                </label>
+                <label>
+                    <span>Otro</span>
+                    <input type="radio" name="sexo" value="otro">
+                </label>
+                <br><br>
+                <span class="resgistroSpan">Seleccione su país</span>
+                <br>
+                <select name="pais">
+                    <option value="seleccion">Otro</option>
+                    <option value="arg">Argentina</option>
+                    <option value="bra">Brasil</option>
+                    <option value="chl">Chile</option>
+                    <option value="mex">Mexico</option>
+                    <option value="ury">Uruguay</option>
+                </select>
+                <br><br>
+                <label class="resgistroSpan" for="correo">Correo electronico</label>
+                <br>
+                <input type="email" placeholder="ej.: nashee22@gmail.com" name="correo" id="correo" required>
+                <br><br>
+                <label class="resgistroSpan" for="contrasena">Contraseña</label>
+                <br>
+                <input type="password" name="contrasena" id="contrasena" required>
+                <br><br>
+                <label class="resgistroSpan" for="contrasenaC">Confirmar contraseña</label>
+                <br>
+                <input type="password" name="contrasenaC" id="contrasenaC" required>
+                <br><br>
+                <label>
+                    <input type="checkbox" name="avisos">
+                    <span>Deseo recibir <b>notificaciones de ofertas</b> según los <b>últimos productos visitados.</b></span>
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" required>
+                    <span><b>Acepto los Términos y Condiciones</b> y <b>Política de Privacidad.</b></span>
+                </label>
+                <br><br>
+                <input class="resgistrarmeInput" type="submit" value="Registrarme">
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="logoFooter">
+                <a href="./index.html"><img class="logoChico" src="./img/tru-Logo.png" alt="TDG logo"></a>
+                <span class="derechos1">© True Damage Gaming (TDG)</span>
+                <span class="derechos2">, Reservados todos los derechos.</span>
+            </div>
+            <ul class="listaRedes">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
