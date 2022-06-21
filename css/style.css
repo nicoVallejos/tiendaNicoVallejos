@@ -457,3 +457,111 @@ h4 {
         margin-left: 5px;
     }
 }
+
+
+
+/* TABLET 768 WIDTH - TABLET 768 WIDTH - TABLET 768 WIDTH -*/
+
+@media (max-width: 768px) {
+    .h2, h4, .pServicioDeAyuda, .formUtil, .pQuienesSomos, .pQuienesSomos2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .pQuienesSomos {
+        height: 120px;
+        width: 435px;
+    }
+    .resgistroForm {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3 {
+        margin-left: 0px;
+    }
+    main {
+        align-items: center;
+    }
+    label {
+        text-align: center;
+    }
+    input::placeholder {
+        text-align: center;
+    }
+    .spanUtil {
+        margin-left: 5px;
+    }
+}
+
+
+
+/* LAPTOP 1024 WIDTH - LAPTOP 1024 WIDTH - LAPTOP 1024 WIDTH -*/
+
+@media (max-width: 1024px) {
+    .h2, h4, .pServicioDeAyuda, .formUtil, .pQuienesSomos, .pQuienesSomos2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .pQuienesSomos {
+        height: 120px;
+        width: 435px;
+    }
+    .resgistroForm {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3 {
+        margin-left: 0px;
+    }
+    main {
+        align-items: center;
+    }
+    label {
+        text-align: center;
+    }
+    input::placeholder {
+        text-align: center;
+    }
+    .spanUtil {
+        margin-left: 5px;
+    }
+}
+
+
+
+/* LAPTOP 1190 WIDTH - LAPTOP 1190 WIDTH - LAPTOP 1190 WIDTH*/
+
+@media (max-width: 1190px) {
+    .h2, h4, .pServicioDeAyuda, .formUtil, .pQuienesSomos, .pQuienesSomos2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .pQuienesSomos {
+        height: 120px;
+        width: 435px;
+    }
+    .resgistroForm {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3 {
+        margin-left: 0px;
+    }
+    main {
+        align-items: center;
+    }
+    label {
+        text-align: center;
+    }
+    input::placeholder {
+        text-align: center;
+    }
+    .spanUtil {
+        margin-left: 5px;
+    }
+}
