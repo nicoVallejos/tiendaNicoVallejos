@@ -19,7 +19,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; }
-    header .logo .imgLogo {
+    header .logo a .imgLogo {
       width: 140px;
       height: 70px;
       cursor: pointer;
@@ -31,7 +31,7 @@ header {
         width: 350px;
         padding-left: 15px;
         font-size: 20px; }
-  header .lista {
+  header nav .lista {
     display: flex;
     flex-direction: row;
     place-content: center;
@@ -39,13 +39,13 @@ header {
     align-content: center;
     align-items: center;
     flex-wrap: wrap; }
-    header .lista li {
+    header nav .lista li {
       margin: 20px; }
-      header .lista li .abcColor {
+      header nav .lista li .abcColor {
         color: white;
         text-decoration: none;
         font-size: 20px; }
-        header .lista li .abcColor:hover {
+        header nav .lista li .abcColor:hover {
           color: #32d2d2; }
   header .botonesPerfil {
     display: flex;
@@ -54,16 +54,21 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; }
-    header .botonesPerfil .perfil {
+    header .botonesPerfil a .perfil {
       cursor: pointer;
       margin: 5px;
       font-size: 20px;
       height: 40px;
       width: 150px;
       background-color: #32d2d2; }
-      header .botonesPerfil .perfil:hover {
+      header .botonesPerfil a .perfil:hover {
         background-color: white;
         color: #32d2d2; }
+
+/* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
+@media (max-width: 1190px) {
+  input::placeholder {
+    text-align: center; } }
 
 footer {
   background-color: black;
@@ -80,7 +85,7 @@ footer {
     align-items: center;
     justify-content: center;
     align-content: center; }
-    footer .logoFooter .logoChico {
+    footer .logoFooter a .logoChico {
       width: 55px;
       height: 50px;
       cursor: pointer;
@@ -98,41 +103,41 @@ footer {
     align-content: center;
     flex-wrap: wrap;
     list-style: none; }
-  footer i {
-    color: #32d2d2;
-    padding: 10px;
-    font-size: 30px; }
-    footer i:hover {
-      color: white; }
+    footer .listaRedes li a i {
+      color: #32d2d2;
+      padding: 10px;
+      font-size: 30px; }
+      footer .listaRedes li a i:hover {
+        color: white; }
 
 main {
   background-color: #e5e5e5;
   display: flex;
   flex-direction: column; }
-  main .tableProducto {
+  main section div .tableProducto {
     display: grid; }
-    main .tableProducto .thText {
+    main section div .tableProducto tr .thText {
       display: flex;
       align-items: baseline; }
-      main .tableProducto .thText .h2 {
+      main section div .tableProducto tr .thText .h2 {
         margin-top: 50px;
         margin-left: 400px;
         margin-right: 15px; }
-      main .tableProducto .thText .linkOfertas {
+      main section div .tableProducto tr .thText .linkOfertas {
         color: #32d2d2; }
-        main .tableProducto .thText .linkOfertas:hover {
+        main section div .tableProducto tr .thText .linkOfertas:hover {
           color: white; }
-      main .tableProducto .thText .linkProductos {
+      main section div .tableProducto tr .thText .linkProductos {
         color: #32d2d2; }
-        main .tableProducto .thText .linkProductos:hover {
+        main section div .tableProducto tr .thText .linkProductos:hover {
           color: white; }
-    main .tableProducto .trCaja {
+    main section div .tableProducto .trCaja {
       display: flex;
       margin-top: 15px;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center; }
-      main .tableProducto .trCaja .tdProducto {
+      main section div .tableProducto .trCaja .tdProducto {
         margin-right: 10px;
         margin-left: 10px;
         background-color: white;
@@ -140,20 +145,173 @@ main {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         margin-bottom: 23px; }
-        main .tableProducto .trCaja .tdProducto .imgProducto {
+        main section div .tableProducto .trCaja .tdProducto a .imgProducto {
           width: 180px;
           height: 180px;
           cursor: pointer;
           margin: 15px; }
-          main .tableProducto .trCaja .tdProducto .imgProducto:hover {
+          main section div .tableProducto .trCaja .tdProducto a .imgProducto:hover {
             transform: scale(1.2);
             transition: 2s; }
-        main .tableProducto .trCaja .tdProducto .linea {
+        main section div .tableProducto .trCaja .tdProducto .linea {
           border-top: solid 1px #e5e5e5;
           margin: 15px;
           padding-top: 15px;
           margin-top: auto; }
 
+/* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
+@media (max-width: 1190px) {
+  main {
+    align-items: center; }
+    main section div .tableProducto tr .thText .h2 {
+      margin-left: 15px;
+      margin-right: 15px; } }
+
+main .ingresarH3 {
+  background-color: #32d2d2;
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px; }
+
+main h3 {
+  margin-top: 50px;
+  margin-left: 400px; }
+
+main .nosotrosH3 {
+  background-color: #32d2d2;
+  height: 40px;
+  width: 130px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px; }
+
+main .pQuienesSomos {
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  background-color: #32d2d2;
+  height: 70px;
+  width: 790px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white; }
+
+main .pQuienesSomos2 {
+  margin-top: 50px;
+  margin-left: 770px;
+  margin-bottom: 100px;
+  background-color: #32d2d2;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 90px;
+  width: 420px; }
+
+/* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
+@media (max-width: 1190px) {
+  main h3 {
+    margin-left: 0px; }
+  main .pQuienesSomos {
+    height: 120px;
+    width: 435px;
+    margin-left: 15px;
+    margin-right: 15px; }
+  main .pQuienesSomos2 {
+    margin-left: 15px;
+    margin-right: 15px; } }
+
+main .datosH3 {
+  background-color: #32d2d2;
+  height: 40px;
+  width: 160px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px; }
+
+main .resgistroForm {
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-bottom: 100px; }
+  main .resgistroForm label .resgistroSpan {
+    color: #32d2d2; }
+  main .resgistroForm .resgistrarmeInput {
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: #32d2d2;
+    border: none; }
+    main .resgistroForm .resgistrarmeInput:hover {
+      background-color: white;
+      color: #32d2d2; }
+
+/* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
+@media (max-width: 1190px) {
+  main .resgistroForm {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .resgistroForm label {
+      text-align: center; } }
+
+main h4 {
+  margin-top: 50px;
+  margin-left: 400px;
+  font-size: 18px; }
+
+main .ayudaH3 {
+  background-color: #32d2d2;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px; }
+
+main .colorH4Ayuda {
+  color: #32d2d2; }
+
+main .pServicioDeAyuda {
+  margin-top: 15px;
+  margin-left: 400px; }
+
+main .formUtil {
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-bottom: 100px; }
+  main .formUtil .spanUtil {
+    margin-right: 15px;
+    margin-left: 5px;
+    color: #32d2d2; }
+  main .formUtil label .inputR {
+    margin-right: 15px; }
+  main .formUtil .enviarB {
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: #32d2d2;
+    border: none; }
+    main .formUtil .enviarB:hover {
+      background-color: white;
+      color: #32d2d2; }
+
+/* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
+@media (max-width: 1190px) {
+  main h4 {
+    margin-left: 15px;
+    margin-right: 15px; }
+  main .pServicioDeAyuda {
+    margin-left: 15px;
+    margin-right: 15px; }
+  main .formUtil {
+    margin-left: 15px;
+    margin-right: 15px; } }
+
+/* GRILLA - GRILLA - GRILLA - GRILLA - GRILLA - GRILLA - */
 .grilla {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -167,24 +325,3 @@ main {
 
 .footer {
   grid-area: footer; }
-
-@media (max-width: 1190px) {
-  .h2, h4, .pServicioDeAyuda, .formUtil, .pQuienesSomos, .pQuienesSomos2 {
-    margin-left: 15px;
-    margin-right: 15px; }
-  .pQuienesSomos {
-    height: 120px;
-    width: 435px; }
-  .resgistroForm {
-    margin-left: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  h3 {
-    margin-left: 0px; }
-  main {
-    align-items: center; }
-  label {
-    text-align: center; }
-  input::placeholder {
-    text-align: center; } }

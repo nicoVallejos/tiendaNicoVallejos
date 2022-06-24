@@ -1,0 +1,57 @@
+main{
+    h3 {
+        margin-top: 50px;
+        margin-left: 400px;
+    }
+    .nosotrosH3 {
+        background-color: rgb(50, 210, 210);
+        height: 40px;
+        width: 130px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .pQuienesSomos {
+        margin-top: 50px;
+        margin-left: 400px;
+        margin-bottom: 50px;
+        background-color: rgb(50, 210, 210);
+        height: 70px;
+        width: 790px;
+        padding-top: 10px;
+        padding-left: 10px;
+        color: white;
+    }
+    .pQuienesSomos2 {
+        margin-top: 50px;
+        margin-left: 770px;
+        margin-bottom: 100px;
+        background-color: rgb(50, 210, 210);
+        padding-left: 10px;
+        padding-top: 10px;
+        height: 90px;
+        width: 420px;
+    }
+}
+
+
+
+/* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
+
+@media (max-width: 1190px) {
+    main{
+        h3 {
+            margin-left: 0px;
+        }
+        .pQuienesSomos {
+            height: 120px;
+            width: 435px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .pQuienesSomos2{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+}

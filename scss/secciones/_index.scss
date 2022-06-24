@@ -2,58 +2,90 @@ main {
     background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
-    .tableProducto {
-        display: grid;
-        .thText {
-            display: flex;
-            align-items: baseline;
-            .h2 {
-                margin-top: 50px;
-                margin-left: 400px;
-                margin-right: 15px;
-            }
-            .linkOfertas {
-                color: rgb(50, 210, 210);
-                &:hover {
-                    color: white;
+    section{
+        div{
+            .tableProducto {
+                display: grid;
+                tr{
+                    .thText {
+                        display: flex;
+                        align-items: baseline;
+                        .h2 {
+                            margin-top: 50px;
+                            margin-left: 400px;
+                            margin-right: 15px;
+                        }
+                        .linkOfertas {
+                            color: rgb(50, 210, 210);
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                        .linkProductos {
+                            color: rgb(50, 210, 210);
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                    } 
                 }
-            }
-            .linkProductos {
-                color: rgb(50, 210, 210);
-                &:hover {
-                    color: white;
-                }
-            }
-        }        
-        .trCaja {
-            display: flex;
-            margin-top: 15px;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            .tdProducto {
-                margin-right: 10px;
-                margin-left: 10px;
-                background-color: white;
-                border-bottom-style: groove;
-                border-bottom-left-radius: 5px;
-                border-bottom-right-radius: 5px;
-                margin-bottom: 23px;
-                .imgProducto {
-                    width: 180px;
-                    height: 180px;
-                    cursor: pointer;
-                    margin: 15px;
-                    &:hover {
-                        transform: scale(1.2);
-                        transition: 2s;
+                .trCaja {
+                    display: flex;
+                    margin-top: 15px;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    .tdProducto {
+                        margin-right: 10px;
+                        margin-left: 10px;
+                        background-color: white;
+                        border-bottom-style: groove;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        margin-bottom: 23px;
+                        a{
+                            .imgProducto {
+                                width: 180px;
+                                height: 180px;
+                                cursor: pointer;
+                                margin: 15px;
+                                &:hover {
+                                    transform: scale(1.2);
+                                    transition: 2s;
+                                }
+                            }
+                        }
+                        .linea {
+                            border-top: solid 1px #e5e5e5;
+                            margin: 15px;
+                            padding-top: 15px;
+                            margin-top: auto;
+                        }
                     }
                 }
-                .linea {
-                    border-top: solid 1px #e5e5e5;
-                    margin: 15px;
-                    padding-top: 15px;
-                    margin-top: auto;
+            }
+        }
+    }
+}
+
+
+
+/* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
+
+@media (max-width: 1190px){
+    main{
+        align-items: center;
+        section{
+            div{
+                .tableProducto{
+                    tr{
+                        .thText{
+                            .h2{
+                                margin-left: 15px;
+                                margin-right: 15px;
+                            }
+                        }
+                    }
                 }
             }
         }

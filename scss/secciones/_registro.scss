@@ -1,0 +1,51 @@
+main{
+    .datosH3 {
+        background-color: rgb(50, 210, 210);
+        height: 40px;
+        width: 160px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .resgistroForm {
+        margin-top: 20px;
+        margin-left: 400px;
+        margin-bottom: 100px;
+        label{
+            .resgistroSpan {
+                color: rgb(50, 210, 210);
+            }
+        }
+        .resgistrarmeInput {
+            cursor: pointer;
+            margin: 5px;
+            font-size: 20px;
+            height: 40px;
+            width: 150px;
+            background-color: rgb(50, 210, 210);
+            border: none;
+            &:hover {
+                background-color: white;
+                color: rgb(50, 210, 210);
+            }
+        }
+    }
+}
+
+
+
+/* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
+
+@media (max-width: 1190px) {
+    main{
+        .resgistroForm {
+            margin-left: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            label {
+                text-align: center;
+            }
+        }
+    }
+}
