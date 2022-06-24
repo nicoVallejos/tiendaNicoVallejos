@@ -1,0 +1,48 @@
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .logoFooter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        .logoChico {
+            width: 55px;
+            height: 50px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .derechos1 {
+            color: rgb(50, 210, 210);
+            padding-left: 10px;
+        }
+        .derechos2 {
+            color: white;
+        }
+    }
+    .listaRedes {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    i{
+        color: rgb(50, 210, 210);
+        padding: 10px;
+        font-size: 30px;
+        &:hover{
+            color: white;
+        }
+    }
+
+}

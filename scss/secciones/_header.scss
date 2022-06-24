@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .imgLogo {
+            width: 140px;
+            height: 70px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        form{
+            margin: 30px;
+            .buscador {
+                height: 35px;
+                width: 350px;
+                padding-left: 15px;
+                font-size: 20px;
+            }
+        }
+    }
+    .lista {
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        list-style: none;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        li{
+            margin: 20px;
+            .abcColor {
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                &:hover{
+                    color: rgb(50, 210, 210);
+                }
+            }
+        }
+    }
+    .botonesPerfil {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .perfil {
+            cursor: pointer;
+            margin: 5px;
+            font-size: 20px;
+            height: 40px;
+            width: 150px;
+            background-color: rgb(50, 210, 210);
+            &:hover{
+                background-color: white;
+                color: rgb(50, 210, 210);
+            }
+        }
+    }
+}

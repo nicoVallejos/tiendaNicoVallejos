@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Passion One', cursive;
+}
+
+@import './secciones/header';
+@import './secciones/footer';
+@import'./secciones/index';
+@import'./secciones/iniciarSesion';
+@import'./secciones/quienesSomos';
+@import'./secciones/registro';
+@import'./secciones/servicioDeAyuda';
+
+
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header header header"
+        "main main main main main"
+        "footer footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
+
+@media (max-width: 1190px) {
+    .h2, h4, .pServicioDeAyuda, .formUtil, .pQuienesSomos, .pQuienesSomos2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .pQuienesSomos {
+        height: 120px;
+        width: 435px;
+    }
+    .resgistroForm {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3 {
+        margin-left: 0px;
+    }
+    main {
+        align-items: center;
+    }
+    label {
+        text-align: center;
+    }
+    input::placeholder {
+        text-align: center;
+    }
+}
