@@ -66,7 +66,7 @@ header{
                 font-size: 20px;
                 height: 40px;
                 width: 150px;
-                background-color: rgb(50, 210, 210);
+                @include btn(rgb(50, 210, 210),black);
                 &:hover{
                     background-color: white;
                     color: rgb(50, 210, 210);

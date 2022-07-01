@@ -8,6 +8,8 @@
     font-family: 'Passion One', cursive;
 }
 
+@import './variables/extend';
+@import './variables/mixins';
 
 @import './secciones/header';
 @import './secciones/footer';

@@ -22,8 +22,7 @@ footer{
             }
         }
         .derechos1 {
-            color: rgb(50, 210, 210);
-            padding-left: 10px;
+            @extend %estiloSpan;
         }
         .derechos2 {
             color: white;

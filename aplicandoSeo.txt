@@ -1,0 +1,29 @@
+Agregué, cambie del index
+title
+meta keywords
+meta description
+
+Agregué, cambie del iniciarSesion
+title
+meta keywords
+meta description
+
+Agregué, cambie del productos
+title
+meta keywords
+meta description
+
+Agregué, cambie del quienesSomos
+title
+meta keywords
+meta description
+
+Agregué, cambie del registro
+title
+meta keywords
+meta description
+
+Agregué, cambie del servicioDeAyuda
+title
+meta keywords
+meta description
