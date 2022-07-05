@@ -75,6 +75,18 @@ header {
   input::placeholder {
     text-align: center; } }
 
+@media (max-width: 410px) {
+  header .logo form .buscador {
+    width: 300px; } }
+
+@media (max-width: 360px) {
+  header .logo form .buscador {
+    width: 250px; } }
+
+@media (max-width: 310px) {
+  header .logo form .buscador {
+    width: 200px; } }
+
 footer {
   background-color: black;
   display: flex;
@@ -160,6 +172,8 @@ main {
           margin: 15px;
           padding-top: 15px;
           margin-top: auto; }
+          main section div .tableProducto .trCaja .tdProducto .linea span {
+            color: #32d2d2; }
 
 /* RESPONSIVEDESING - RESPONSIVEDESING - RESPONSIVEDESING -  */
 @media (max-width: 1190px) {
@@ -317,9 +331,7 @@ main .formUtil {
 .grilla {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "header header header header header"
- "main main main main main"
- "footer footer footer footer footer"; }
+  grid-template-areas: "header header header header header" "main main main main main" "footer footer footer footer footer"; }
 
 .header {
   grid-area: header; }

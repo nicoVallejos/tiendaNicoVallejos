@@ -85,3 +85,42 @@ header{
         text-align: center;
     }
 }
+
+
+@media (max-width: 410px){
+    header{
+        .logo{
+            form{
+                .buscador{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 360px){
+    header{
+        .logo{
+            form{
+                .buscador{
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 310px){
+    header{
+        .logo{
+            form{
+                .buscador{
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
