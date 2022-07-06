@@ -237,6 +237,14 @@ main .pQuienesSomos2 {
     margin-left: 15px;
     margin-right: 15px; } }
 
+@media (max-width: 440px) {
+  main .pQuienesSomos {
+    height: 160px;
+    width: 300px; }
+  main .pQuienesSomos2 {
+    height: 150px;
+    width: 300px; } }
+
 main .datosH3 {
   background-color: #32d2d2;
   height: 40px;
