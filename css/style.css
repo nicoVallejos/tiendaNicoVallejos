@@ -277,9 +277,14 @@ main .resgistroForm {
     margin-left: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    font-size: 25px; }
+    main .resgistroForm .imputIR {
+      font-size: 25px; }
     main .resgistroForm label {
-      text-align: center; } }
+      text-align: center; }
+      main .resgistroForm label .imputIR {
+        font-size: 25px; } }
 
 main h4 {
   margin-top: 50px;
